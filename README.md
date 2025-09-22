@@ -3,7 +3,7 @@
 
 ## Step by step guide to setup Stremio Server on your VPS
 Stremio Server is a powerful tool to watch your favorite movies or series, but there is a catch: the Stremio app is available on mobile devices, but lacks core functionalities.
-For instance, the App Store version of Stremio does not allow streaming content via Torrent, which is probably the most common way to use Stremio (besides paid services like Real Debrid).
+For instance, the App Store version of Stremio does not allow streaming content via Torrent, which is probably the most common way to use Stremio (besides paid services like Real Debrid). 
 
 This is unfortunate, but we can work around it.
 
