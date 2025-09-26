@@ -55,7 +55,7 @@ Something like: `http://100.x.x.x:11470`, on port 11470 for HTTP and 12470 for H
 
 ## Run the image
 
-`docker run --rm -d -p 11470:11470 -p 12470:12470 stremio/server:latest`
+`sudo docker run --rm -d -p 11470:11470 -p 12470:12470 stremio/server:latest`
 
 If you're running `stremio-web` locally then you should disable CORS on the server by passing `NO_CORS=1` to the env. variables:
 
