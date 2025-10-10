@@ -46,7 +46,7 @@ sudo docker run --rm -d -p 11470:11470 -p 12470:12470 stremio/server:latest
 ```
 And check if it's running with
 ```bash
-curl http://localhost:11470
+curl -I http://localhost:11470
 ```
 
 If it's done correctly and running, you now can access your admin panel on Tailscale, get the VPS's IPv4 and put the HTTP endpoint on the mobile Stremio app settings.
