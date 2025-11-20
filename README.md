@@ -42,7 +42,7 @@ sudo tailscale up
 After that, run the docker image with the command:
 ```bash
 cd server-docker
-sudo docker run --rm -d -p 11470:11470 -p 12470:12470 stremio/server:latest
+sudo docker compose up -d
 ```
 And check if it's running with
 ```bash
